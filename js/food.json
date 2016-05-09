@@ -47,7 +47,7 @@
             {"name": "Kale", "price": ".65"},
             {"name": "Rainbow Chard", "price": ".65"},
             {"name": "Spinach", "price": ".65"},
-            {"name": "Turnip greens", "price": ".65"},
+            {"name": "Turnip Greens", "price": ".65"},
             {"name": "Red Cabbage", "price": ".65"},
             {"name": "Butternut Squash", "price": ".65"},
             {"name": "Sweet Potato", "price": ".65"},
@@ -86,24 +86,24 @@
                     {"name": "Coconut milk", "price": ".65"},
                     {"name": "Plain Greek", "price": ".65"},
                     {"name": "Vanilla Greek", "price": ".65"},
-                    {"name": "Plain regular", "price": ".65"},
-                    {"name": "Vanilla regular", "price": ".65"}
+                    {"name": "Plain Regular", "price": ".65"},
+                    {"name": "Vanilla Regular", "price": ".65"}
                 ]
             },
             "teas": {
                 "name": "Teas",
                 "list": [
-                    {"name": "chamomile", "price": ".55"}
+                    {"name": "Chamomile", "price": ".55"}
                 ]
             },
             "otherLiquids": {
                 "name": "Other Liquids",
                 "list": [
-                    {"name": "Coconut oil" , "price": "1.25"},
+                    {"name": "Coconut Oil" , "price": "1.25"},
                     {"name": "Vanilla Extract", "price": "1.25"},
-                    {"name": "Flaxseed oil", "price": "1.25"},
+                    {"name": "Flaxseed Oil", "price": "1.25"},
                     {"name": "Honey", "price": "1.25"},
-                    {"name": "Raw egg", "price": "1.25"}
+                    {"name": "Raw Egg", "price": "1.25"}
                 ]
             }
         }
@@ -115,7 +115,7 @@
             {"name": "Cacao", "price": "1.00"},
             {"name": "Maca Powder", "price": "1.00"},
             {"name": "Whey Protein", "price": "1.00"},
-            {"name": "Hemp powder", "price": "1.00"},
+            {"name": "Hemp Powder", "price": "1.00"},
             {"name": "Wheatgrass Powder", "price": "1.00"},
             {"name": "Soy Protein", "price": "1.00"}
         ]
