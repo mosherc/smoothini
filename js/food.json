@@ -75,7 +75,7 @@
         "name": "Liquids",
         "list": {
             "dairy": {
-                "name": "Dairy",cac
+                "name": "Dairy",
                 "list": [
                     {"name": "Whole", "price": ".65"},
                     {"name": "2%", "price": ".65"},
