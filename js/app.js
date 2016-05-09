@@ -97,7 +97,7 @@ app.factory('foodService', function ($http, $q) {
     var foodService = {};
 
     foodService.async = function () {
-        $http.get('/js/food.json').success(function (data) {
+        $http.get('js/food.json').success(function (data) {
             ingredients = data;
             deferred.resolve();
         });
