@@ -1,0 +1,26 @@
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Smoothie Maker
+            <small>Pick your {{foodCat.name}}</small>
+        </h1>
+        <bread-crumb></bread-crumb>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row" ng-controller="CartController">
+    <div ng-repeat="food in foodCatList" class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+       <div class="polaroid-border">
+        <div class="polaroid">
+            <img class="img-responsive" ng-src="img/{{food.name}}.jpg" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')" alt="">
+            <a href="" class="food-title" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')">{{food.name}}<div class="price">{{food.price}}</div></a>
+            
+            <ngcart-addtocart id="{{food.name}}" name="{{food.name}}" price="{{food.price}}" quantity="1" data="food"></ngcart-addtocart>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+<hr>

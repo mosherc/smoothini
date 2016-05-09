@@ -1,0 +1,26 @@
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Smoothie Maker
+                    <small>Pick your category</small>
+                </h1>
+        <bread-crumb></bread-crumb>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row">
+    <div ng-repeat="ing in ingredients" class="col-md-6 portfolio-item">
+       <div class="polaroid-border">
+        <div class="polaroid">
+            <a href="#/{{ing.name.split(' ').join('')}}">
+            <img class="img-responsive food-image" src="img/{{ing.name}}.jpg" alt="">
+        </a>
+            <a ng-href="#/{{ing.name.split(' ').join('')}}" class="food-title">{{ing.name}}</a>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+<hr>

@@ -1,0 +1,123 @@
+{
+    "fruits": {
+        "name": "Fruits",
+        "list":[
+            {"name": "Apple", "price": ".75"},
+            {"name": "Banana", "price": ".75"},
+            {"name": "Grapefruit", "price": ".75"},
+            {"name": "White Grapes", "price": ".75"},
+            {"name": "Red Grapes", "price": ".75"},
+            {"name": "Kiwi", "price": ".75"},
+            {"name": "Lemon", "price": ".75"},
+            {"name": "Lime", "price": ".75"},
+            {"name": "Orange", "price": ".75"},
+            {"name": "Papaya", "price": ".75"},
+            {"name": "Pomegranate", "price": ".75"},
+            {"name": "Peach", "price": ".75"},
+            {"name": "Pineapple", "price": ".75"},
+            {"name": "Pear", "price": ".75"},
+            {"name": "Watermelon", "price": ".75"},
+            {"name": "Acai Berry", "price": ".75"},
+            {"name": "Blueberry", "price": ".75"},
+            {"name": "Goji Berry", "price": ".75"},
+            {"name": "Raspberry", "price": ".75"},
+            {"name": "Strawberry", "price": ".75"},
+            {"name": "Cherry", "price": ".75"},
+            {"name": "Cranberry", "price": ".75"},
+            {"name": "Plum", "price": ".75"},
+            {"name": "Mango", "price": ".75"},
+            {"name": "Apricot", "price": ".75"}
+        ]
+    },
+    "vegetables": {
+        "name": "Vegetables",
+        "list": [
+            {"name": "Asparagus" , "price": ".65"},
+            {"name": "Avocado", "price": ".65"},
+            {"name": "Beet", "price": ".65"},
+            {"name": "Bell Pepper", "price": ".65"},
+            {"name": "Broccoli", "price": ".65"},
+            {"name": "Carrot", "price": ".65"},
+            {"name": "Cauliflower", "price": ".65"},
+            {"name": "Cucumber", "price": ".65"},
+            {"name": "Tomato", "price": ".65"},
+            {"name": "Pumpkin", "price": ".65"},
+            {"name": "Yams", "price": ".65"},
+            {"name": "Bok Choy", "price": ".65"},
+            {"name": "Kale", "price": ".65"},
+            {"name": "Rainbow Chard", "price": ".65"},
+            {"name": "Spinach", "price": ".65"},
+            {"name": "Turnip greens", "price": ".65"},
+            {"name": "Red Cabbage", "price": ".65"},
+            {"name": "Butternut Squash", "price": ".65"},
+            {"name": "Sweet Potato", "price": ".65"},
+            {"name": "Seaweed", "price": ".65"}
+        ]
+    },
+    "nutsAndSeeds": {
+        "name": "Nuts and Seeds",
+        "price": ".75",
+        "list": [
+            {"name": "Almonds" , "price": ".75"},
+            {"name": "Flaxseed", "price": ".75"},
+            {"name": "Pecans", "price": ".75"},
+            {"name": "Walnuts", "price": ".75"},
+            {"name": "Pumpkin Seeds", "price": ".75"},
+            {"name": "Chia Seeds", "price": ".75"},
+            {"name": "Oats", "price": ".75"},
+            {"name": "Peanut Butter", "price": ".75"},
+            {"name": "Almond Butter", "price": ".75"},
+            {"name": "Quinoa", "price": ".75"},
+            {"name": "Sunflower Seeds", "price": ".75"}
+        ]
+    },
+    "liquids": {
+        "name": "Liquids",
+        "list": {
+            "dairy": {
+                "name": "Dairy",
+                "list": [
+                    {"name": "Whole", "price": ".65"},
+                    {"name": "2%", "price": ".65"},
+                    {"name": "1%", "price": ".65"},
+                    {"name": "Skim", "price": ".65"},
+                    {"name": "Soy", "price": ".65"},
+                    {"name": "Almond", "price": ".65"},
+                    {"name": "Coconut milk", "price": ".65"},
+                    {"name": "Plain Greek", "price": ".65"},
+                    {"name": "Vanilla Greek", "price": ".65"},
+                    {"name": "Plain regular", "price": ".65"},
+                    {"name": "Vanilla regular", "price": ".65"}
+                ]
+            },
+            "teas": {
+                "name": "Teas",
+                "list": [
+                    {"name": "chamomile", "price": ".55"}
+                ]
+            },
+            "otherLiquids": {
+                "name": "Other Liquids",
+                "list": [
+                    {"name": "Coconut oil" , "price": "1.25"},
+                    {"name": "Vanilla Extract", "price": "1.25"},
+                    {"name": "Flaxseed oil", "price": "1.25"},
+                    {"name": "Honey", "price": "1.25"},
+                    {"name": "Raw egg", "price": "1.25"}
+                ]
+            }
+        }
+    },
+    "powders": {
+        "name": "Powders",
+        "price": "1.00",
+        "list": [
+            {"name": "Cacao", "price": "1.00"},
+            {"name": "Maca Powder", "price": "1.00"},
+            {"name": "Whey Protein", "price": "1.00"},
+            {"name": "Hemp powder", "price": "1.00"},
+            {"name": "Wheatgrass Powder", "price": "1.00"},
+            {"name": "Soy Protein", "price": "1.00"}
+        ]
+    }
+}

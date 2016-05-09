@@ -1,0 +1,23 @@
+<div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+
+</div>
+<span ng-show="attrs.id">
+    <span>
+        <span ng-show="quantityMax">
+            <select name="quantity" id="quantity" ng-model="q"
+                    ng-options=" v for v in qtyOpt"></select>
+        </span>
+        <button ng-hide="ngCart.getItemById(id)" ng-init="popup='default-popup'" class="btn btn-sm btn-smoothie hvr-bounce-to-right" ng-click="ngCart.addItem(id, name, price, q, data); popup='smoothie-added'" ng-transclude>
+            <span class="glyphicon glyphicon-plus"></span> Add
+        </button>
+        <button ng-show="ngCart.getItemById(id)" class="btn btn-sm btn-smoothie btn-smoothie-remove hvr-bounce-to-left" ng-click="ngCart.removeItemById(id); popup='smoothie-removed'">
+            <span class="glyphicon glyphicon-remove"></span> Remove
+        </button>
+    </span>
+<!--
+    <mark  ng-show="inCart()">
+        This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Remove</a>
+    </mark>
+-->
+</span>
