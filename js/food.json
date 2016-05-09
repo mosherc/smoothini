@@ -75,7 +75,7 @@
         "name": "Liquids",
         "list": {
             "dairy": {
-                "name": "Dairy",
+                "name": "Dairy",cac
                 "list": [
                     {"name": "Whole", "price": ".65"},
                     {"name": "2%", "price": ".65"},
@@ -84,10 +84,8 @@
                     {"name": "Soy", "price": ".65"},
                     {"name": "Almond", "price": ".65"},
                     {"name": "Coconut Milk", "price": ".65"},
-                    {"name": "Plain Greek", "price": ".65"},
-                    {"name": "Vanilla Greek", "price": ".65"},
-                    {"name": "Plain Regular", "price": ".65"},
-                    {"name": "Vanilla Regular", "price": ".65"}
+                    {"name": "Greek Vanilla", "price": ".65"},
+                    {"name": "Vanilla Yogurt", "price": ".65"}
                 ]
             },
             "teas": {
@@ -115,7 +113,7 @@
             {"name": "Cacao", "price": "1.00"},
             {"name": "Maca Powder", "price": "1.00"},
             {"name": "Whey Protein", "price": "1.00"},
-            {"name": "Hemp Powder", "price": "1.00"},
+            {"name": "Hemp Powder", "price": "4.20"},
             {"name": "Wheatgrass Powder", "price": "1.00"},
             {"name": "Soy Protein", "price": "1.00"}
         ]
