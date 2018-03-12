@@ -82,6 +82,9 @@ app.directive('foodItems', function () {
                 });
             }
             scope.foodCatList = scope.foodCat.list;
+            scope.showDetails = false;
+            scope.showDetailsExpand = scope.foodCat.name == 'Prebuilts';
+            console.log(scope.foodCat);
 
         }
     };
@@ -162,6 +165,9 @@ app.config(['$routeProvider', function ($routeProvider, $locationProvider) {
         })
         .when('/Powders', {
             template: '<food-items category="powders"></food-items>'
+        })
+        .when('/Prebuilts', {
+            template: '<food-items category="prebuilts"></food-items>'
         })
         .when('/Cart', {
             templateUrl: 'templates/cart.html'
