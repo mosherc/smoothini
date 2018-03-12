@@ -12,13 +12,27 @@
 <!-- Projects Row -->
 <div class="row" ng-controller="CartController">
     <div ng-repeat="food in foodCatList" class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
-       <div class="polaroid-border">
-        <div class="polaroid">
-            <img class="img-responsive" ng-src="img/{{food.name}}.jpg" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')" alt="">
-            <a href="" class="food-title" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')">{{food.name}}<div class="price">{{food.price}}</div></a>
-            
-            <ngcart-addtocart id="{{food.name}}" name="{{food.name}}" price="{{food.price}}" quantity="1" data="food"></ngcart-addtocart>
-        </div>
+        <div class="polaroid-border">
+            <div class="polaroid">
+                <img class="img-responsive" ng-src="img/{{food.name}}.jpg" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')"
+                    alt="">
+                <a href="" class="food-title" ng-click="ngCart.toggleItem(food.name, food.name, food.price, 1, 'food')">{{food.name}}
+                    <div class="price">{{food.price}}</div>
+                </a>
+
+                <ngcart-addtocart id="{{food.name}}" name="{{food.name}}" price="{{food.price}}" quantity="1" data="food"></ngcart-addtocart>
+
+            </div>
+            <div ng-show="showDetailsExpand">
+                <button ng-click="showDetails = !showDetails" class="btn btn-sm btn-smoothie">
+                    <div ng-show="showDetails">
+                        <ul class="list-unstyled">
+                            <li ng-repeat="ingredient in food.list">{{ingredient.name}}</li>
+                        </ul>
+                    </div>
+                    <span class="glyphicon glyphicon-th-list"></span> {{showDetails ? "Less" : "More"}} Details
+                </button>
+            </div>
         </div>
     </div>
 </div>

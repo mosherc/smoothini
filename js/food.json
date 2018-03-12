@@ -1,7 +1,7 @@
 {
     "fruits": {
         "name": "Fruits",
-        "list":[
+        "list": [
             {"name": "Apple", "price": ".75"},
             {"name": "Banana", "price": ".75"},
             {"name": "Grapefruit", "price": ".75"},
@@ -117,5 +117,32 @@
             {"name": "Wheatgrass Powder", "price": "1.00"},
             {"name": "Soy Protein", "price": "1.00"}
         ]
+    },
+    "prebuilts": {
+        "name": "Prebuilts",
+        "list": {
+            "strawberryPowerSmoothie": {
+                "name": "Strawberry Power Smoothie",
+                "price": "5.00",
+                "list": [
+                    {"name": "Strawberry"},
+                    {"name": "Avocado"},
+                    {"name": "Sunflower Seeds"},
+                    {"name": "Almonds"},
+                    {"name": "Almond Butter"}
+                ]
+            },
+            "bananaOatSmoothie": {
+                "name": "Banana Oat Smoothie",
+                "price": "4.00",
+                "list": [
+                    {"name": "Oats"},
+                    {"name": "Banana"},
+                    {"name": "Honey"},
+                    {"name": "Vanilla Yogurt"},
+                    {"name": "Skim"}
+                ]
+            }
+        }
     }
 }
